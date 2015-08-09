@@ -1,0 +1,246 @@
+@charset "UTF-8";
+@import url(normalize.css);
+a {
+  text-decoration: none; }
+  a:link {
+    color: white; }
+  a:visited {
+    color: white; }
+  a:hover {
+    color: white; }
+
+ul {
+  list-style-type: none; }
+
+html {
+  font-family: sans-serif; }
+
+.wapper {
+  text-align: center; }
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #000000;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  opacity: 0.8; }
+  .header .img {
+    color: white;
+    display: inline-block;
+    padding: 20px 60px;
+    width: 350px;
+    font-size: 20px;
+    vertical-align: center; }
+    .header .img .title {
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 10px; }
+    .header .img img {
+      width: 50px; }
+  .header .titles {
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top; }
+    .header .titles ul {
+      margin: 0px;
+      font-family: "微软雅黑"; }
+      .header .titles ul li {
+        display: inline-block;
+        margin-top: 28px; }
+        .header .titles ul li a {
+          display: inline-block;
+          width: 120px;
+          font-size: 14px;
+          padding: 0 20px; }
+          .header .titles ul li a:hover {
+            color: white; }
+
+.index .main {
+  margin: 0 auto;
+  padding-top: 80px;
+  text-align: center;
+  min-height: 600px; }
+  .index .main .about {
+    text-align: left;
+    background-color: black;
+    color: white; }
+    .index .main .about .content {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden; }
+      .index .main .about .content .text {
+        vertical-align: top;
+        display: block; }
+        .index .main .about .content .text h1 {
+          display: inline-block; }
+        .index .main .about .content .text a {
+          color: #6bb918;
+          display: inline-block; }
+        .index .main .about .content .text p {
+          text-indent: 30px;
+          line-height: 33px;
+          font-size: 14px; }
+        .index .main .about .content .text img {
+          width: 30%;
+          vertical-align: top;
+          margin-top: 50px;
+          display: block;
+          float: right; }
+  .index .main .game_title .title {
+    font-size: 25px;
+    color: #757575;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left; }
+    .index .main .game_title .title .em {
+      display: inline;
+      margin: 20px;
+      color: #76be29; }
+  .index .main .game_display {
+    width: 100%;
+    display: inline-block;
+    background-color: #DDDCDC; }
+    .index .main .game_display .each_box {
+      display: inline-block;
+      width: 150px;
+      height: 400px;
+      margin: 0 0 40px 0;
+      border: 1px solid black;
+      opacity: 0.4;
+      background-color: #0072c6;
+      transition: all 0.3s; }
+      .index .main .game_display .each_box:hover {
+        opacity: 1; }
+      .index .main .game_display .each_box img {
+        width: 150px;
+        height: 400px; }
+
+.tail_black {
+  height: 80px;
+  color: #FFFFFF; }
+
+.tail {
+  background-color: #242424;
+  color: #797878; }
+  .tail .leg {
+    border-top: 1px solid black;
+    display: inline-block;
+    width: 75%; }
+    .tail .leg .address {
+      display: inline-block;
+      width: 380px;
+      border-right: 1px solid #333333;
+      margin-top: 20px; }
+      .tail .leg .address .contact {
+        text-align: left;
+        font-size: 35px;
+        color: #6bb918; }
+        .tail .leg .address .contact .em {
+          color: #797878;
+          font-size: 20px;
+          display: inline; }
+        .tail .leg .address .contact p {
+          font-size: 15px;
+          color: #797878; }
+      .tail .leg .address .detail ul {
+        text-align: left;
+        padding: 0px; }
+        .tail .leg .address .detail ul li {
+          font-size: 13px;
+          display: block; }
+    .tail .leg .phone {
+      vertical-align: top;
+      display: inline-block;
+      border: 1px solid black;
+      margin-top: 20px;
+      width: 430px; }
+      .tail .leg .phone .number {
+        font-size: 30px;
+        color: #6bb918; }
+    .tail .leg .tail {
+      text-align: center; }
+
+.about_page .main {
+  margin: 0 auto;
+  padding-top: 80px;
+  text-align: center;
+  background: url("../img/bg.jpg") repeat;
+  min-height: 600px; }
+  .about_page .main .about {
+    text-align: left; }
+    .about_page .main .about .content {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden; }
+      .about_page .main .about .content .text {
+        vertical-align: top;
+        display: block; }
+        .about_page .main .about .content .text h1 {
+          display: inline-block; }
+        .about_page .main .about .content .text a {
+          color: #6bb918;
+          display: inline-block; }
+        .about_page .main .about .content .text p {
+          text-indent: 30px;
+          line-height: 33px;
+          font-size: 14px; }
+        .about_page .main .about .content .text img {
+          width: 30%;
+          vertical-align: top;
+          margin-top: 50px;
+          display: block;
+          float: right; }
+
+.success_page .main {
+  margin: 0 auto;
+  padding-top: 80px;
+  text-align: center;
+  background: url("../img/bg.jpg") repeat;
+  min-height: 600px; }
+  .success_page .main h1 {
+    display: inline-block;
+    width: 70%;
+    text-align: left; }
+  .success_page .main .game_display {
+    width: 100%;
+    display: inline-block; }
+    .success_page .main .game_display .each_box {
+      display: inline-block;
+      width: 150px;
+      height: 400px;
+      margin: 0 0 40px 0;
+      border: 1px solid black;
+      opacity: 0.4;
+      background-color: #0072c6;
+      transition: all 0.3s; }
+      .success_page .main .game_display .each_box:hover {
+        opacity: 1; }
+      .success_page .main .game_display .each_box img {
+        width: 150px;
+        height: 400px; }
+
+.contact_page .main {
+  margin: 0 auto;
+  padding-top: 80px;
+  background: url("../img/bg.jpg") repeat;
+  min-height: 600px; }
+  .contact_page .main .text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left; }
+    .contact_page .main .text h1 {
+      display: inline-block; }
+    .contact_page .main .text ul {
+      padding-left: 0;
+      margin: 0; }
+      .contact_page .main .text ul li {
+        margin-top: 20px;
+        font-size: 14px; }
+    .contact_page .main .text img {
+      width: 40%;
+      vertical-align: top;
+      margin-top: 50px;
+      display: block;
+      float: right; }
