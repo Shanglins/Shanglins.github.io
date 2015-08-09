@@ -210,20 +210,23 @@ html {
   .success_page .main .game_display {
     width: 100%;
     display: inline-block; }
-    .success_page .main .game_display .each_box {
-      display: inline-block;
-      width: 150px;
-      height: 400px;
-      margin: 0 0 40px 0;
-      border: 1px solid black;
-      opacity: 0.4;
-      background-color: #0072c6;
-      transition: all 0.3s; }
-      .success_page .main .game_display .each_box:hover {
-        opacity: 1; }
-      .success_page .main .game_display .each_box img {
-        width: 150px;
-        height: 400px; }
+    .success_page .main .game_display .three_a_line {
+      width: 80%;
+      margin: 5px auto; }
+      .success_page .main .game_display .three_a_line .each_box {
+        display: inline-block;
+        top: 0px;
+        position: relative;
+        width: 310px;
+        height: 191px;
+        margin: 20px 0 0 10px;
+        border: 1px solid black;
+        transition: all 0.3s; }
+        .success_page .main .game_display .three_a_line .each_box:hover {
+          top: -20px; }
+        .success_page .main .game_display .three_a_line .each_box img {
+          width: 310px;
+          height: 191px; }
 
 .contact_page .main {
   margin: 0 auto;
